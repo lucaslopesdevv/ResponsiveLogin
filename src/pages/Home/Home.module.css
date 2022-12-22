@@ -1,0 +1,23 @@
+.homeMain {
+    width: 100vw;
+    height: 100vh;
+    background: var(--gray-900);
+}
+
+.homePainel {
+    width: 80%;
+    height: 75%;
+    margin-left: 13rem;
+    margin-top: 1rem;
+    border: 0;
+    border-radius: 8px;
+    color: var(--white);
+    background: var(--gray-800);
+    ;
+}
+
+.homePainel > header {
+    padding: 2rem 0 0 2rem;
+    font-size: 30px;
+    font-weight: 500;
+}

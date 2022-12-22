@@ -20,14 +20,8 @@
 }
 
 body {
-  /*background-image: url('assets/fundo.jpg');*/
-
- /* background-size: cover;
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-
-  color: var(--gray-300);
-  -webkit-font-smoothing: antialiased;*/
+  color: var(--gray-800);
+  -webkit-font-smoothing: antialiased;
 }
 
 
