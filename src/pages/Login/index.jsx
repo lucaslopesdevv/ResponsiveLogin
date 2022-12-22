@@ -12,7 +12,7 @@ export function Login() {
       <div className={styles.mainLogin}>
         <div className={styles.leftLogin}>
           <h1>
-            Faça Login <br /> E acesse nossa Central de Suporte
+            Faça Login <br /> E acesse nosso sistema de chamados
           </h1>
           <img src={imagemLogin} alt="Floating Image" />
         </div>
