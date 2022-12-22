@@ -18,7 +18,12 @@
 }
 
 .leftLogin > h1 {
+    font-size: 2vw;
     color: var(--green-300);
+}
+
+.leftLogin img {
+    width: 30vw;
 }
 
 .rightLogin {
@@ -50,10 +55,12 @@
 }
 
 .textField {
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
+    margin: 10px 0;
 }
 
 .textField > input {
@@ -65,5 +72,63 @@
     color: #f0ffffde;
     font-size: 12pt;
     box-shadow: 0px 10px 40px #00000056;
+    outline: none;
+    box-sizing: border-box;
 
+}
+
+.textField > label {
+    color: #f0ffffde;
+    margin-bottom: calc(1rem - 6px);
+}
+
+.textField > input::placeholder {
+    color: #f0ffff94;
+}
+.btnLogin {
+    width: 100%;
+    padding: 1rem 0;
+    margin: calc(1rem + 9px);
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    font-weight: 800;
+    letter-spacing: 2px;
+    color: #2b134b;
+    background: var(--green-300);
+    cursor: pointer;
+    box-shadow: 0 10px 40px -12px var(--green-500);
+}
+
+@media only screen and (max-width: 950px) {
+    .carLogin {
+        width: 85%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .mainLogin {
+        flex-direction: column;
+    }
+
+    .leftLogin > h1 {
+        display: none;
+    }
+
+    .leftLogin {
+        width: 100%;
+        height: auto;
+    }
+
+    .rightLogin {
+        width: 100%;
+        height: auto;
+    }
+
+    .leftLogin img {
+        width: 50vw;
+    }
+    .carLogin {
+        width: 90%;
+    }
 }

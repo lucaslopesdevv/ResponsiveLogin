@@ -2,6 +2,7 @@ import { Header } from "../../components/Header/Header";
 
 import svgCrediceripa from "../../assets/logo-Crediceripa.svg";
 import fundo from "../../assets/fundo.jpg";
+import imagemLogin from "../../assets/NewAnimation.svg";
 
 import styles from "./Login.module.css";
 
@@ -13,6 +14,7 @@ export function Login() {
           <h1>
             Faça Login <br /> E acesse nosso canal de suporte da Crediceripa
           </h1>
+          <img src={imagemLogin} alt="Floating Image" />
         </div>
         <div className={styles.rightLogin}>
           <div className={styles.cardLogin}>
