@@ -12,7 +12,7 @@ export function Routes() {
   return (
     <Router>
       <Rotas>
-        <Route path="/Login" element={<Login />} />
+        <Route path="/" element={<Login />} />
         <Route path="/Home" element={<Home />} />
       </Rotas>
     </Router>
