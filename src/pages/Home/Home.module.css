@@ -7,7 +7,7 @@
 .homePainel {
     width: 80%;
     height: 75%;
-    margin-left: 13rem;
+    margin-left: calc(10rem + 13px);
     margin-top: 1rem;
     border: 0;
     border-radius: 8px;
